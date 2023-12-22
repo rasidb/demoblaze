@@ -8,6 +8,6 @@ import org.junit.Assert;
 public class IlkTest_stepDefinition {
     @Then("link {string} olmalı")
     public void link_olmalı(String string) {
-        Assert.assertEquals("url test et",Driver.getDriver().getCurrentUrl(),string+"1");
+        Assert.assertEquals("url test et",Driver.getDriver().getCurrentUrl(),string);
     }
 }
