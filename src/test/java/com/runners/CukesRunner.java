@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                 "rerun:target/cucumber-reports/rerun.txt",
                 "me.jvt.cucumber.report.PrettyReports:target/cucumber-reports"
         },
-        tags = "@heroku",
+        tags = "@demoblaze",
         dryRun = false,
         publish = true
 
