@@ -19,12 +19,16 @@ public class Hooks {
 
     @After
     public void afterClass() {
-        Driver.closeDriver();
+     //   Driver.closeDriver();
     }
     @Before("@heroku")
     public void herokuSetup(){
         Driver.getDriver().get("https://the-internet.herokuapp.com/");
     }
-}
+    @Before("@demoblaze")
+    public void demoblazeSetup(){
+        Driver.getDriver().get("https://demoblaze.com/");
+    }
+    }
 
 
